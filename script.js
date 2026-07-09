@@ -1,3 +1,7 @@
+const topBtn = document.getElementById("topBtn");
+
+console.log(topBtn);
+
 "use strict";
 
 /* ==========================================
