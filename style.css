@@ -1088,7 +1088,7 @@ body{
 
     flex-wrap:wrap;
 
-    margin-top:60px;
+    margin-top:80px;
 
 }
 
@@ -1655,7 +1655,7 @@ img{
 
     gap:20px;
 
-    margin-bottom:20px;
+    margin-bottom:16px;
 
 }
 
@@ -1688,7 +1688,7 @@ img{
 
     resize:vertical;
 
-    margin-bottom:25px;
+    margin-bottom:20px;
 
 }
 
@@ -1697,11 +1697,17 @@ img{
 
     border-color:var(--primary);
 
-    box-shadow:0 0 0 4px rgba(37,99,235,.15);
+    box-shadow:0 0 0 3px rgba(37,99,235,.18);
 
 }
 
 .contact-form button{
+
+    display:block;
+
+    width:220px;
+
+    margin:0 auto;
 
     cursor:pointer;
 
