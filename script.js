@@ -143,9 +143,7 @@ function animateCounters() {
    REVEAL
 ========================================== */
 
-const revealItems = document.querySelectorAll(
-".section,.card,.timeline-item,.achievement-card,.contact-card"
-);
+const revealItems = document.querySelectorAll(".reveal");
 
 function revealElements() {
 
