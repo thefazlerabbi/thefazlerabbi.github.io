@@ -151,7 +151,7 @@ function revealElements() {
 
         const top = item.getBoundingClientRect().top;
 
-        if (top < window.innerHeight - 80) {
+        if (top < window.innerHeight - 100) {
 
             item.classList.add("active");
 
