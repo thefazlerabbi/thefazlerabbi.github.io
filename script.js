@@ -234,34 +234,6 @@ window.addEventListener("scroll", onScroll);
 
 onScroll();
 
-/*==================================================
-DIGITAL JOURNEY
-==================================================*/
-.timeline-progress{
-
-left:18px;
-
-}
-
-.journey-item{
-
-width:100%;
-
-margin:0!important;
-
-padding-left:55px;
-
-padding-right:0;
-
-}
-
-.timeline-dot{
-
-left:9px!important;
-
-right:auto;
-
-}
 
 
 /*=========================================
