@@ -266,3 +266,58 @@ right:auto;
 }
 
 }
+
+/*=========================================
+ JOURNEY ANIMATION
+=========================================*/
+
+const timeline =
+document.querySelector(".timeline-track");
+
+const timelinePoints =
+document.querySelectorAll(".timeline-point");
+
+const journeyCards =
+document.querySelectorAll(".journey-card");
+
+function animateJourney(){
+
+    const section =
+    document.querySelector("#journey");
+
+    if(!section) return;
+
+    const top =
+    section.getBoundingClientRect().top;
+
+    if(top < window.innerHeight-150){
+
+        timeline.classList.add("active");
+
+        timelinePoints.forEach((point,index)=>{
+
+            setTimeout(()=>{
+
+                point.classList.add("active");
+
+            },index*180);
+
+        });
+
+        journeyCards.forEach((card,index)=>{
+
+            setTimeout(()=>{
+
+                card.classList.add("show");
+
+            },250+(index*120));
+
+        });
+
+    }
+
+}
+
+window.addEventListener("scroll",animateJourney);
+
+animateJourney();
